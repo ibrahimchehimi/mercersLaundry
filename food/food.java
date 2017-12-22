@@ -28,13 +28,13 @@ public class food {
     return pM;
   }
 
-  public int stringDecInt(String userString){
+  public int stringDecInt(String userInput){
     String foodString = "";
     String food2String = "";
     Double foodDouble = 0.0;
     Integer foodInt = 0;
     try {
-      foodDouble = Double.parseDouble(userString);
+      foodDouble = Double.parseDouble(userInput);
       foodDouble = 0.0;
     }
     catch(NumberFormatException ne3){
@@ -136,7 +136,7 @@ public class food {
   Double foodDouble = 0.0;
 
   foodString = obj.stringDecInt(userString);
-
+/*
   try {
     foodDouble = Double.parseDouble(userString);
     foodDouble = 0.0;
@@ -155,6 +155,7 @@ public class food {
       System.exit(0);
     }
   }
+  */
   if(foodDouble == 0){
     try {
       System.out.println("Second attempt might be successful");
