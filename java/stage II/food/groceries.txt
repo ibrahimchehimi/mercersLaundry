@@ -1,0 +1,10 @@
+groceries list
+
+apple
+orange
+toblerone
+egg carton
+cerial
+paper towels
+
+
